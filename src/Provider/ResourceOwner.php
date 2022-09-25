@@ -12,6 +12,11 @@ class ResourceOwner implements ResourceOwnerInterface
     {
     }
 
+    public function getId(): string
+    {
+        return $this->response['email'];
+    }
+
     public function toArray(): array
     {
         return $this->response;
