@@ -1,0 +1,30 @@
+{
+    "name": "mathieu-dumoutier/oauth2-envconfig",
+    "description": "OAuth2 Client generic provider for config by .env file",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mathieu DUMOUTIER",
+            "email": "mathieu@dumoutier.fr",
+            "homepage": "https://mathieu.dumoutier.fr"
+        }
+    ],
+    "keywords": [
+        "oauth",
+        "oauth2",
+        "client",
+        "authorization",
+        "authentication",
+        "env",
+        "config"
+    ],
+    "require": {
+        "php": ">=8.0",
+        "league/oauth2-client": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MathieuDumoutier\\OAuth2\\Client\\": "src/"
+        }
+    }
+}
