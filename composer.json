@@ -1,5 +1,5 @@
 {
-    "name": "mathieu-dumoutier/oauth2-envconfig",
+    "name": "planete-croisiere/oauth2-envconfig",
     "description": "OAuth2 Client generic provider for config by .env file",
     "license": "MIT",
     "authors": [
@@ -24,7 +24,7 @@
     },
     "autoload": {
         "psr-4": {
-            "MathieuDumoutier\\OAuth2\\Client\\": "src/"
+            "PlaneteCroisiere\\OAuth2\\Client\\": "src/"
         }
     }
 }
