@@ -7,12 +7,12 @@ This package provides OAuth 2.0 generic support from config .env file for the PH
 To install, use composer:
 
 ```
-composer require mathieu-dumoutier/oauth2-envconfig
+composer require planete-croisiere/oauth2-envconfig
 ```
 
 ## Usage
 
-Usage is the same as The League's OAuth client, using `\MathieuDumoutier\OAuth2\Client\Provider\EnvConfig` as the provider.
+Usage is the same as The League's OAuth client, using `\PlaneteCroisiere\OAuth2\Client\Provider\EnvConfig` as the provider.
 
 ## knpuniversity/oauth2-client-bundle configuration example
 
@@ -21,7 +21,7 @@ knpu_oauth2_client:
     clients:
         youapp_oauth:
             type: generic
-            provider_class: MathieuDumoutier\OAuth2\Client\Provider\EnvConfigProvider
+            provider_class: PlaneteCroisiere\OAuth2\Client\Provider\EnvConfigProvider
             provider_options:
                 "scopes": '%env(OAUTH2_SCOPES)%'
                 "app_url": '%env(OAUTH2_BASE_APP_URL)%'    
